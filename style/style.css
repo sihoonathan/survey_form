@@ -1,0 +1,91 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(29, 29, 118, 0.75);
+    z-index: -1;
+    height: 100%;
+}
+
+#main {
+    height: 100vh;
+    overflow: scroll;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#title {
+    margin: 4rem auto;
+    font-size: 2rem;
+}
+
+#description {
+    margin-top: -3rem;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+#survey-form {
+    margin: 0 auto;
+    width: 75%;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 0.25rem;
+    text-align: left;
+    /*display: flex;*/
+}
+
+.flex > section {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.box {
+    /*display: block;*/
+    width: 100%;
+    height: 2.5rem;
+    padding: 0;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.box:focus {
+    border: 3px solid lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
